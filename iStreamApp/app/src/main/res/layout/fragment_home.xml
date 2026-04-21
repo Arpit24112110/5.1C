@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etYoutubeUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter YouTube URL" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnAddToPlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add to Playlist"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnMyPlaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Playlist"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="10dp" />
+
+        <WebView
+            android:id="@+id/webViewPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>
